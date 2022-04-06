@@ -20,13 +20,13 @@ right.addEventListener('click', ()=>{
 
 form.addEventListener('keydown', ()=>{
   let val = input.value;
-  let symbol = '@';
+  let value = input.value.includes('@');
   list.style.opacity = '1';
   let text = lastLi.textContent
   if (val.length > 8){
     lastLi.innerHTML = `<i class='bx bx-check' ></i>More than 8 character`;
   } 
-   if (val.includes(symbol)){
+   if (val == value){
      symbol.innerHTML = `<i class='bx bx-check' ></i>Special Character`;
   }
 })

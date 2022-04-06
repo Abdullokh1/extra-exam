@@ -62,6 +62,28 @@
 // console.log(result);
 
 
+// 5-Masala 
+
+let arr = ['sdf'];
+let elNewArr = [];
+
+for(let i = 0; i < arr.length; i++){
+  if(Number.isInteger(arr[i])){
+    elNewArr.push(arr[i]);
+  } else if (Array.isArray(arr[i])){
+    arr[i].forEach((item) => {
+      elNewArr.push(item);
+    })
+  } else if(typeof arr[i] === "object"){
+      elNewArr.push(Object.keys(arr[i])[0]);
+      elNewArr.push(Object.values(arr[i])[0]);
+  } else{
+    elNewArr.push(arr[i]);
+  }
+}
+
+console.log(elNewArr);
+
 // 6-Masala 
 
 // let arr = [1,2,3,4];
