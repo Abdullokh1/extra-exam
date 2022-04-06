@@ -6,14 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
 
+  <form class="form" action="#">
+    <div class="input-wrapper ">
+     <button class="left-btn"><i class='bx icon lock-icon bxs-lock-alt'></i></button> 
+      <input class="input" type="text" name="Password" placeholder="Password">
+     <button class="right-btn"><i class='bx icon eye-icon bx-low-vision'></i></button> 
+    </div>
+  </form>
+  <ul class="list">
+    <li><i class='bx bx-x'></i>Upper Case</li>
+    <li class="character"><i class='bx bx-x'></i>Special Character</li>
+    <li><i class='bx bx-x'></i>Number</li>
+    <li class="last-li"><i class='bx bx-x character-check'></i>More than 8 character</li>
+  </ul>
+
+
+
   <script src="js/main.js"></script>
+  <script src="js/exercise.js"></script>
+
 </body>
 
 </html>
