@@ -1,7 +1,7 @@
 // 1-MASALA 
 
 
-// let arr = [10,1,3,5,8,9];
+// let arr = [10,1,3,5,12,28];
 // for (let i = 0; i < arr.length; i++){
 //    if (arr[i] > arr[i+1]){
 //      let result = arr[i+1];
@@ -17,7 +17,7 @@
 
 // let obj = [
 //   {
-//     login : "forever",
+//     login : "er",
 //     pass: "forever123"
 //   }
 // ];
@@ -43,8 +43,8 @@
 
 // 4-Masala
 
-// let n = 2;
-// let k = 3;
+// let n = 10;
+// let k = 2;
 // let result = 0;
 
 // for(let i = 1; i <= n; i++){
@@ -58,31 +58,31 @@
 //     result += i;
 //   }
 // }
-
 // console.log(result);
+
 
 
 // 5-Masala 
 
-let arr = ['sdf'];
-let elNewArr = [];
+// let arr = ['sdf', {na: 1, sdf: 2}];
+// let elNewArr = [];
 
-for(let i = 0; i < arr.length; i++){
-  if(Number.isInteger(arr[i])){
-    elNewArr.push(arr[i]);
-  } else if (Array.isArray(arr[i])){
-    arr[i].forEach((item) => {
-      elNewArr.push(item);
-    })
-  } else if(typeof arr[i] === "object"){
-      elNewArr.push(Object.keys(arr[i])[0]);
-      elNewArr.push(Object.values(arr[i])[0]);
-  } else{
-    elNewArr.push(arr[i]);
-  }
-}
+// for(let i = 0; i < arr.length; i++){
+//   if(Number.isInteger(arr[i])){
+//     elNewArr.push(arr[i]);
+//   } else if (Array.isArray(arr[i])){
+//     arr[i].forEach((item) => {
+//       elNewArr.push(item);
+//     })
+//   } else if(typeof arr[i] === "object"){
+//       elNewArr.push(Object.keys(arr[i])[0]);
+//       elNewArr.push(Object.values(arr[i])[0]);
+//   } else{
+//     elNewArr.push(arr[i]);
+//   }
+// }
 
-console.log(elNewArr);
+// console.log(elNewArr);
 
 // 6-Masala 
 

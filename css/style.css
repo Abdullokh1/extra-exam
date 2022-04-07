@@ -23,8 +23,6 @@ button{
 .input{
   padding: 15px;
   background-color: transparent;
-  padding-left: 40px;
-  padding-right: 40px;
   color: #ccc;
   border-radius: 5px;
   border: none;
@@ -40,6 +38,15 @@ button{
   background-color: #121327;
   border-radius: 5px;
 }
+.left-btn{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.right-btn{
+  padding-right: 10px;
+  padding-top: 10px;
+
+}
 .d-none{
   display: none;
 }
@@ -50,23 +57,13 @@ button{
   font-size: 20px;
   color: #fff;
 }
-.left-btn{
-  position: absolute;
-  left: 10px;
-  top: 12px;
-}
-.right-btn{
-  position: absolute;
-  right: 10px;
-  top: 12px;
-}
 .bxs-bullseye{
   font-size: 20px;
 }
 .list{
   list-style: none;
   background-color: #121327;
-  width: 242px;
+  width: 261px;
   padding: 10px;
   border-radius: 5px;
   margin-top: 10px;
@@ -75,11 +72,13 @@ button{
 li{
   color: #fff;
   margin-bottom: 15px;
+  filter: brightness(0.6);
   
 }
-.bx-x{
+.bx-x, .bx-check{
   font-size: 20px;
   position: relative;
   top: 3px;
   right: 3px;
 }
+
